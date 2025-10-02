@@ -16,8 +16,7 @@
 webproj/
 ├─ README.md
 ├─ public/
-│  ├─ index.html
-│  ├─ main.js
+│  ├─ main.html
 │  ├─ css/
 │  │  └─ styles.css
 │  ├─ components/      
@@ -28,12 +27,11 @@ webproj/
 ```
 
 - `public/` : 정적 루트(브라우저가 여는 폴더)
-- `index.html` : 메인 페이지
-- `main.js` : 동적제어 스크립트
-- `css/` : 전역 및 페이지 css 파일 모음 폴더
-- `styles.css`: 공통 스타일, 페이지별 스타일은 길어질 시 분리
-- `components/`: 공통 파셜 폴더 (ex.헤더, 푸터)
-- `pages/` : 실제 서브페이지 폴더, 내비게이션 대상 파일 모음
+- `main.html` : 메인 페이지
+- `css/` : css 파일 폴더
+- `styles.css`: 공통 스타일
+- `components/`: 공통 파셜 폴더 (ex.헤더, 푸터 필요시 활용)
+- `pages/` : 서브페이지 폴더
 - `assets/ ` : 이미지, 아이콘, 폰트 등 에셋 파일 폴더
 
 ---
